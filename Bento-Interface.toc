@@ -1,0 +1,12 @@
+## Interface: 110200
+## Title: Bento Interface
+## Notes: Clean and minimal UI modifications for reduced visual clutter
+## Author: MIYANKO
+## Version: 1.0.0
+
+Modules/AlertBlocker.lua
+Modules/ArenaFrames.lua
+Modules/BarHide.lua
+Modules/ButtonGlow.lua
+Modules/Nameplates.lua
+Modules/RaidFrames.lua

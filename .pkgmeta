@@ -1,0 +1,8 @@
+package-as: Bento-Interface
+
+ignore:
+  - README.md
+  - .gitignore
+  - .git
+  - .github
+  - .pkgmeta
