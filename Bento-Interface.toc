@@ -4,9 +4,9 @@
 ## Author: MIYANKO
 ## Version: 1.0.0
 
-Modules/AlertBlocker.lua
+Modules/HideAlerts.lua
 Modules/ArenaFrames.lua
-Modules/BarHide.lua
-Modules/ButtonGlow.lua
-Modules/Nameplates.lua
-Modules/RaidFrames.lua
+Modules/HideHonorBar.lua
+Modules/HideButtonGlow.lua
+Modules/NameplateAuras.lua
+Modules/RaidframeAuras.lua
