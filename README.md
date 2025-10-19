@@ -4,9 +4,9 @@ Clean and minimal UI modifications for World of Warcraft that reduce visual clut
 
 ## Features
 
-- **Alert Blocker** - Disables achievement alerts and talking head notifications
+- **Hide Alerts** - Disables achievement alerts and talking head notifications
 - **Arena Frames** - Hides arena frame names, buffs, and cast bars
-- **Bar Hide** - Hides XP and honor bars at max level
-- **Button Glow** - Removes action button glow effects
-- **Nameplates** - Simplifies nameplates by hiding buffs
-- **Raid Frames** - Hides buffs and debuffs on raid frames
+- **Hide Honor Bar** - Hides honor bar at max level
+- **Hide Button Glow** - Removes action button glow effects
+- **Nameplate Auras** - Simplifies nameplates by hiding buffs
+- **Raidframe Auras** - Hides buffs and debuffs on raid frames
