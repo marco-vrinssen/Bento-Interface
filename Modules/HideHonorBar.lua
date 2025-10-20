@@ -1,4 +1,4 @@
--- Hides status tracking bar in PvP zones and battlegrounds
+-- Hides status tracking bar in arenas, battlegrounds, and PvP zones
 
 local function updateBarVisibility()
   if not MainStatusTrackingBarContainer then
@@ -8,7 +8,7 @@ local function updateBarVisibility()
   local _, instanceType = IsInInstance()
   local zonePvp = GetZonePVPInfo()
   
-  if instanceType == "pvp" or zonePvp == "combat" then
+  if instanceType == "arena" or instanceType == "pvp" or zonePvp == "combat" then
     MainStatusTrackingBarContainer:Hide()
     MainStatusTrackingBarContainer:SetScript("OnShow", MainStatusTrackingBarContainer.Hide)
   else
